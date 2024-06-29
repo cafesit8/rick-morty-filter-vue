@@ -8,7 +8,7 @@
       @click="handleClick(user)"
     >
       <picture>
-        <img class="rounded-t-lg w-full" :src="user.image" alt="" />
+        <img class="rounded-t-lg w-full aspect-square" :src="user.image" alt="" />
       </picture>
       <div class="p-3">
         <h5 class="mb-2 md:text-2xl text-lg font-bold truncate tracking-tight text-gray-900 dark:text-white">{{ user.name }}</h5>
